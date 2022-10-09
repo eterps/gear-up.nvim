@@ -1,5 +1,7 @@
 # gear-up.nvim
 
+![screenshot](screenshot.png)
+
 Tiny configuration to get started with Neovim.
 
 Goals:
