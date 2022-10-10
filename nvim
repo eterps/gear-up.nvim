@@ -1,3 +1,6 @@
 #!/bin/bash
-mkdir -p share &&
-XDG_CONFIG_HOME="$PWD/config" XDG_DATA_HOME="$PWD/share" nvim
+set -e
+dir=$(dirname "$BASH_SOURCE")
+
+mkdir -p "$dir/share"
+XDG_CONFIG_HOME="$dir/config" XDG_DATA_HOME="$dir/share" nvim "$@"
