@@ -20,7 +20,7 @@ This repo is meant to be used as a starting point for a user's own configuration
 - Run the following command in your shell:
 
 ```
-$ nvim --headless -c 'autocmd User PackerComplete quitall' -c 'PackerSync'
+nvim --headless -c 'autocmd User PackerComplete quitall' -c 'PackerSync'
 ```
 
 - start neovim
