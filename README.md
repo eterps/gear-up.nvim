@@ -9,9 +9,10 @@ Goals:
 - Single-file
 - Language server support (+completions)
 
-This configuration targets neovim release 0.8+ and the nightly.
+This configuration targets Neovim release 0.8+ and the nightly.
 
 This repo is meant to be used as a starting point for a user's own configuration; remove the things you don't use and add what you miss.
+I suggest [this blog post by Heiker Curiel](https://vonheikemen.github.io/devlog/tools/build-your-first-lua-config-for-neovim/) for a general overview of configuring Neovim.
 
 ## Installation
 
