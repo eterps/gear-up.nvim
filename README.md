@@ -18,13 +18,9 @@ I suggest [this blog post by Heiker Curiel](https://vonheikemen.github.io/devlog
 
 - Backup your previous configuration
 - Copy and paste the file `init.lua` into `$HOME/.config/nvim/init.lua`
-- Run the following command in your shell:
-
-```
-nvim --headless -c 'autocmd User PackerComplete quitall' -c 'PackerSync'
-```
-
-- start neovim
+- Start neovim
+- Wait until packages have been downloaden and press `q`
+- Restart neovim
 
 ## See also
 
