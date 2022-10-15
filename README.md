@@ -19,7 +19,7 @@ I suggest [this blog post by Heiker Curiel](https://vonheikemen.github.io/devlog
 - Backup your previous configuration
 - Copy and paste the file `init.lua` into `$HOME/.config/nvim/init.lua`
 - Start neovim
-- Wait until packages have been downloaden and press `q`
+- Wait until packages have been downloaded and press `q`
 - Restart neovim
 
 ## See also
